@@ -1,0 +1,54 @@
+:root {
+   /* --variable: */
+   --centerW: 8px;
+   --centerH: 8px;
+   --playerScale: 1;
+}
+
+body {
+   user-select: none; /* prevents highlighting */
+   background-color: rgb(30,30,30);
+}
+
+div {
+   position: absolute;
+}
+
+img {
+   position: absolute;
+}
+
+#center {
+   background-color: white;
+   width: var(--centerW);
+   height: var(--centerH);
+   left: calc(50% - var(--centerW)/2);
+   top: calc(50% - var(--centerH)/2);
+}
+
+#player {
+   /* border-radius: 30px;
+   background-color: deepskyblue; */
+   transform: scale(var(--playerScale),var(--playerScale));
+   left: 1450px;
+   top: 600px;
+   width: 100px;
+   height: 100px;
+   z-index: 1;
+}
+
+#baddie {
+   left: 1500px;
+   top: 600px;
+   width: 100px;
+   height: 100px;
+   z-index: 2;
+}
+
+#ground {
+   background-color: burlywood;
+   width: 2000px;
+   height: 200px;
+   top: 1000px;
+   left: 300px;
+}
