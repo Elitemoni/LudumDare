@@ -1,0 +1,83 @@
+* {
+   margin: 0px;
+}
+
+body {
+   background-color: skyblue;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#gameScene {
+   position: absolute;
+   display: flex;
+   background-color: rgb(0, 210, 20);
+   width: 800px;
+   height: 800px;
+   z-index: -2;
+}
+
+#playerPoint {
+   position: absolute;
+}
+
+#playerImage {
+   position: absolute;
+   background-color: goldenrod;
+   border-radius: 100%;
+   border: solid black 0px;
+   z-index: 0; 
+}
+
+.eye {
+   position: absolute;
+   background-color: black;
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   top: 10px;
+}
+
+#eye1 {
+   position: absolute;
+   left: 10px;
+}
+
+#eye2 {
+   position: absolute;
+   left: 30px;
+}
+
+#treePoint1 {
+   position: absolute;
+}
+
+.tree {
+   position: absolute;
+   background-color: green;
+   border-radius: 100%;
+   border: solid black 4px;
+   z-index: 1;
+}
+
+/* .midCanopy {
+   position: absolute;
+   background-color: green;
+   width: 60px;
+   height: 60px;
+   border-radius: 100%;
+   border: solid black 4px;
+} */
+
+#acornPoint1 {
+   position: absolute;
+   width: 0px;
+   height: 0px;
+   z-index: -1;
+}
+
+#acornImage1 {
+   position: absolute;
+   background-color: olive;
+   border-radius: 100%;
+   border: solid black 0px;
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+}
+
+.circle {
+  position: absolute;
+  background-color: blueviolet;
+  /* width: 10px;
+  height: 10px; */
+  /* padding-left: 10px; */
+  padding-right: 100px;
+  padding-bottom: 100px;
+  border-radius: 100%;
+}
+
+.acorn {
+  position: absolute;
+  background-color: aquamarine;
+  left: 300px;
+  top: 300px;
+  width: 100px;
+  height: 100px;
+}
